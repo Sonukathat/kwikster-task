@@ -18,7 +18,7 @@ function Contact() {
                         <h2 className="text-2xl font-bold sm:text-5xl">Our Contact</h2>
                     </div>
                     <div>
-                        <button className="bg-amber-400 px-6 py-3 rounded-4xl">READ MORE</button>
+                        <button className="bg-amber-400 px-10 py-4 rounded-4xl">READ MORE</button>
                     </div>
                 </div>
                 <div className="flex flex-col gap-8 lg:w-1/2">
