@@ -7,7 +7,7 @@ function Contact() {
         <div className="px-8 xl:px-32 bg-[#f9f6ee] py-12">
             <div className="flex flex-col gap-8 bg-white rounded-4xl px-2 py-8 md:px-8 lg:flex-row lg:justify-between">
                 <div className="flex flex-col gap-6 lg:w-1/2">
-                    <div className="flex flex-col justify-center items-center gap-2 bg-green-500 w-52 h-52 p-6 rounded-[50%]">
+                    <div className="flex flex-col justify-center items-center gap-2 bg-[#99e54d] w-52 h-52 p-6 rounded-[50%]">
                         <h2 className="text-5xl font-bold">40%</h2>
                         <p className="font-bold text-lg text-center">BUSSINESS LAUNCH</p>
                     </div>
@@ -23,7 +23,7 @@ function Contact() {
                 </div>
                 <div className="flex flex-col gap-8 lg:w-1/2">
                     <div className="flex flex-col gap-4 md:flex-row">
-                        <div className="h-16 w-16 flex justify-center items-center bg-green-400 rounded-[50%]">
+                        <div className="h-16 w-16 flex justify-center items-center bg-[#99e54d] rounded-[50%]">
                             <MdMailOutline className="" size={44} />
                         </div>
                         <div className="flex flex-col gap-4">
@@ -33,7 +33,7 @@ function Contact() {
                         </div>
                     </div>
                     <div className="flex flex-col gap-4 md:flex-row">
-                        <div className="h-16 w-16 flex justify-center items-center bg-green-400 rounded-[50%]">
+                        <div className="h-16 w-16 flex justify-center items-center bg-[#99e54d] rounded-[50%]">
                             <IoLocationOutline className="" size={44} />
                         </div>
                         <div className="flex flex-col gap-4 md:w-1/2">
@@ -42,7 +42,7 @@ function Contact() {
                         </div>
                     </div>
                     <div className="flex flex-col gap-4 md:flex-row md:mt-10 lg:mt-0">
-                        <div className="h-16 w-16 flex justify-center items-center bg-green-400 rounded-[50%]">
+                        <div className="h-16 w-16 flex justify-center items-center bg-[#99e54d] rounded-[50%]">
                             <LuPhone className="" size={44} />
                         </div>
                         <div className="flex flex-col gap-4">
