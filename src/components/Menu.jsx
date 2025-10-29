@@ -20,7 +20,7 @@ function Menu() {
 
   return (
     <div className="bg-[#f9f6ee]">
-      <h2 className="text-2xl sm:text-5xl font-bold text-center">View Our Menu</h2>
+      <h2 className="text-2xl sm:text-5xl font-bold text-center pt-8">View Our Menu</h2>
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 px-8 pt-10 xl:px-32">
         {menuItems.map((item, i) => (
