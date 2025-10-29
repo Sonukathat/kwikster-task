@@ -12,49 +12,63 @@ function Contact() {
                         <p className="font-bold text-lg text-center">BUSSINESS LAUNCH</p>
                     </div>
                     <div>
-                        <p className="text-lg font-light">Image from <span className="text-green-400">Freepik</span></p>
+                        <p className="text-lg font-light">
+                            Image from <span className="text-green-400">Freepik</span>
+                        </p>
                     </div>
                     <div>
                         <h2 className="text-2xl font-bold sm:text-5xl">Our Contact</h2>
                     </div>
                     <div>
-                        <button className="bg-amber-400 px-8 py-4 rounded-4xl">READ MORE</button>
+                        <button className="bg-amber-400 px-8 py-4 rounded-4xl">
+                            READ MORE
+                        </button>
                     </div>
                 </div>
+
                 <div className="flex flex-col gap-8 lg:w-1/2">
                     <div className="flex flex-col gap-4 md:flex-row">
                         <div className="h-16 w-16 flex justify-center items-center bg-[#99e54d] rounded-[50%]">
-                            <MdMailOutline className="" size={44} />
+                            <MdMailOutline size={44} />
                         </div>
                         <div className="flex flex-col gap-4">
                             <h3 className="text-lg font-bold">CHART TO US</h3>
                             <p className="font-medium">Our friendly team is here to help.</p>
-                            <a className="text-yellow-500 font-medium text-md" href="#">hi@ourcompany.com</a>
+                            <a className="text-yellow-500 font-medium text-md" href="#">
+                                hi@ourcompany.com
+                            </a>
                         </div>
                     </div>
+
                     <div className="flex flex-col gap-4 md:flex-row">
                         <div className="h-16 w-16 flex justify-center items-center bg-[#99e54d] rounded-[50%]">
-                            <IoLocationOutline className="" size={44} />
+                            <IoLocationOutline size={44} />
                         </div>
                         <div className="flex flex-col gap-4 md:w-1/2">
                             <h3 className="text-lg font-bold">OFFICE</h3>
-                            <p className="font-medium">Come say hello at our office HQ. 121 Rock Sreet, 21 Avenue, New York, NY 92103-9000</p>
+                            <p className="font-medium">
+                                Come say hello at our office HQ. 121 Rock Sreet, 21 Avenue, New
+                                York, NY 92103-9000
+                            </p>
                         </div>
                     </div>
+
                     <div className="flex flex-col gap-4 md:flex-row md:mt-10 lg:mt-0">
                         <div className="h-16 w-16 flex justify-center items-center bg-[#99e54d] rounded-[50%]">
-                            <LuPhone className="" size={44} />
+                            <LuPhone size={44} />
                         </div>
                         <div className="flex flex-col gap-4">
                             <h3 className="text-lg font-bold">PHONE</h3>
                             <p className="font-medium">Mon-Fri from 8am to 5am</p>
-                            <a className="text-yellow-500 font-medium text-md" href="#">+1(555) 000-000</a>
+                            <a className="text-yellow-500 font-medium text-md" href="#">
+                                +1(555) 000-000
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Contact
+export default Contact;
